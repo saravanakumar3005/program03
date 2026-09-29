@@ -1,6 +1,3 @@
-CREATE TABLE Student (
-    student_id INT AUTO_INCREMENT PRIMARY KEY,
-    first_name VARCHAR(50) NOT NULL,
-    last_name VARCHAR(50) NOT NULL,
-    enrollment_date DATE
-);
+ALTER TABLE Student
+  ADD COLUMN email VARCHAR(100),
+  ADD COLUMN phone VARCHAR(15);
